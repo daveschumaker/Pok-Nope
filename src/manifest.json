@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "PokéNope",
+  "version": "0.1.0",
+  "description": "Hide anything related to the latest craze in wasting time.",
+
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": [
+      "http://*/*",
+      "https://*/*"
+    ],
+    "run_at": "document_end"
+  }]
+
+}
