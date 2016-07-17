@@ -1,3 +1,5 @@
+![image](/src/pokenope.png)
+
 # PokéNope
 
 A simple Chrome extension to hide all references to the latest Internet sensation.
